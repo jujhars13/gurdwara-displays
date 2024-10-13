@@ -1,28 +1,24 @@
 // src/router.js
 import { createRouter, createWebHistory } from 'vue-router';
-import Rooms from './pages/Rooms.vue';
-import Entrance from './pages/Entrance.vue';
-import About from './pages/About.vue';
+import RoomsPage from './pages/Rooms.vue';
+import EntrancePage from './pages/Entrance.vue';
+import HomePage from './pages/Home.vue';
 
 const routes = [
   {
     path: '/rooms',
     name: 'Rooms',
-    component: Rooms,
+    component: RoomsPage,
   },
   {
     path: '/entrance',
     name: 'Entrance',
-    component: Entrance,
-  },
-  {
-    path: '/about',
-    name: 'About',
-    component: About,
+    component: EntrancePage,
   },
   {
     path: '/',
-    redirect: '/entrance',
+    name: 'Home',
+    component: HomePage,
   },
 ];
 

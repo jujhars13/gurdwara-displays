@@ -4,9 +4,9 @@
     <header class="container">
       <nav>
         <ul>
+          <li><router-link to="/">Home</router-link></li>
           <li><router-link to="/entrance">Entrance</router-link></li>
           <li><router-link to="/rooms">Rooms</router-link></li>
-          <li><router-link to="/about">About</router-link></li>
         </ul>
       </nav>
     </header>
@@ -14,7 +14,7 @@
       <router-view></router-view>
     </main>
     <footer class="container">
-      <small>&copy; 2023 My Vue App</small>
+      <small>&copy; 2024 My Vue App</small>
     </footer>
   </div>
 </template>
