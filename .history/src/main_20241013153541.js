@@ -5,7 +5,6 @@ import router from './router';
 
 import '@picocss/pico'; // Import Pico.css
 
-
 createApp(App)
   .use(router)
   .mount('#app');

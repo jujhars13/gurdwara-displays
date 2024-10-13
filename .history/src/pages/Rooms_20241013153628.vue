@@ -1,4 +1,4 @@
-<!-- src/components/Rooms.vue -->
+<!-- src/pages/Rooms.vue -->
 <template>
   <article>
     <h1>Rooms</h1>
@@ -9,17 +9,9 @@
 <script>
 export default {
   name: 'RoomsPage',
-  data() {
-    return {
-      // Add your data properties here
-    };
-  },
-  methods: {
-    // Add your methods here
-  },
 };
 </script>
 
 <style scoped>
-/* Add your styles here */
+/* Add component-specific styles if needed */
 </style>

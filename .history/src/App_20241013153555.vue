@@ -14,7 +14,7 @@
       <router-view></router-view>
     </main>
     <footer class="container">
-      <small>&copy; 2023 My Vue App</small>
+      <small>&copy; 2024 My Vue App</small>
     </footer>
   </div>
 </template>

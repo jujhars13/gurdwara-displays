@@ -1,4 +1,4 @@
-<!-- src/components/Entrance.vue -->
+<!-- src/pages/Entrance.vue -->
 <template>
   <article>
     <h1>Entrance</h1>
@@ -9,17 +9,9 @@
 <script>
 export default {
   name: 'EntrancePage',
-  data() {
-    return {
-      // Add your data properties here
-    };
-  },
-  methods: {
-    // Add your methods here
-  },
 };
 </script>
 
 <style scoped>
-/* Add your styles here */
+/* Add component-specific styles if needed */
 </style>

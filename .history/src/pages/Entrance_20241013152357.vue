@@ -1,14 +1,14 @@
-<!-- src/components/Rooms.vue -->
+<!-- src/components/Entrance.vue -->
 <template>
-  <article>
-    <h1>Rooms</h1>
-    <p>This is the Rooms page.</p>
-  </article>
+  <div>
+    <h1>Entrance Page</h1>
+    <p>Welcome to the entrance page.</p>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'RoomsPage',
+  name: 'EntrancePage',
   data() {
     return {
       // Add your data properties here
