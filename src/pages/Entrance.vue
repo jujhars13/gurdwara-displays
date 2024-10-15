@@ -42,9 +42,16 @@ export default {
     };
   },
   mounted() {
+    this.loading = true;
     getJsonContent()
       .then((data) => {
         this.items = data;
+      })
+      .catch((error) => {
+        console.error('Error fetching JSON content:', error);
+      })
+      .finally(() => {
+        this.loading = false;
       })
       .catch((error) => {
         console.error('Error fetching JSON content:', error);
