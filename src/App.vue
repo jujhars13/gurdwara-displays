@@ -4,9 +4,9 @@
     <header class="container">
       <nav>
         <ul>
-          <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/entrance">Entrance</router-link></li>
-          <li><router-link to="/rooms">Rooms</router-link></li>
+          <li><RouterLink to="/">Home</RouterLink></li>
+          <li><RouterLink to="/entrance">Entrance</RouterLink></li>
+          <li><RouterLink to="/rooms">Rooms</RouterLink></li>
         </ul>
       </nav>
     </header>

@@ -6,9 +6,9 @@ import HomePage from './pages/Home.vue';
 
 const routes = [
   {
-    path: '/rooms',
-    name: 'Rooms',
-    component: RoomsPage,
+    path: '/',
+    name: 'Home',
+    component: HomePage,
   },
   {
     path: '/entrance',
@@ -16,15 +16,19 @@ const routes = [
     component: EntrancePage,
   },
   {
-    path: '/',
-    name: 'Home',
-    component: HomePage,
+    path: '/rooms/:queryParams(.*)',
+    name: 'Rooms',
+    component: RoomsPage,
+    props: true,
   },
 ];
 
-const router = createRouter({
+const router = createRouter(
+  {
+  publicPath: '/',
   history: createWebHistory(),
   routes,
-});
+}
+);
 
 export default router;
